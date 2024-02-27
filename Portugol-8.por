@@ -1,16 +1,16 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o de vari·veis.
+    //Declara√ß√£o de vari√°veis.
     cadeia nome
     inteiro idade
     real resultado, notaUm, notaDois, notaTres
 
-    //DefiniÁ„o de vari·veis.
+    //Defini√ß√£o de vari√°veis.
     escreva("Digite seu nome: ")
     leia(nome)
     escreva("Digite sua idade: ")
     leia(idade)
-    escreva("Digite suas notas: ", notaUm, notaDois, notaTres)
+    escreva("Digite suas notas: ")
     leia(notaUm, notaDois, notaTres)
     limpa()
     
@@ -22,9 +22,9 @@ programa {
    
     //Condicional.
     se(resultado > 7){
-      escreva("\nO aluno est· aprovado")
+      escreva("\nO aluno est√° aprovado")
       }senao{
-        escreva("\nO aluno est· reprovado")
+        escreva("\nO aluno est√° reprovado")
       }
   }
 }
