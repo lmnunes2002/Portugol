@@ -22,7 +22,7 @@ programa {
     anoAposentadoria = 2024 - anoNascimento
 
     //Condicional
-    se(anoAposentadoria >= 65 e tempoTrabalho >= 30){
+    se(anoAposentadoria >= 65 ou tempoTrabalho >= 30){
       escreva("\nRequerer aposentadoria")
     } senao {
       escreva("\nNão requerer aposentadoria")
