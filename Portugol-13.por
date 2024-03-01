@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     inteiro matricula, anoNascimento, anoAposentadoria, tempoTrabalho
 
-    //Definição de variáveis.
-    escreva("Digite aqui seu código de matrícula: ")
+    //DefiniÃ§Ã£o de variÃ¡veis.
+    escreva("Digite aqui seu cÃ³digo de matrÃ­cula: ")
     leia(matricula)
     escreva("Digite aqui seu ano de nascimento: ")
     leia(anoNascimento)
@@ -13,7 +13,7 @@ programa {
     limpa()
     
     //Display.
-    escreva("Matrícula: ",matricula)
+    escreva("MatrÃ­cula: ", matricula)
     escreva("\nAno de nascimento: ", anoNascimento)
     escreva("\nTempo de trabalho: ", tempoTrabalho , " anos")
 
@@ -24,7 +24,7 @@ programa {
     se(anoAposentadoria >= 65 e tempoTrabalho >= 30){
       escreva("\nRequerer aposentadoria")
     } senao {
-      escreva("\nNão requerer aposentadoria")
+      escreva("\nNÃ£o requerer aposentadoria")
     }
   }
 }
