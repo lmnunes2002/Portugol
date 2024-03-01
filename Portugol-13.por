@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     //Declaração de variáveis.
-    inteiro anoNascimento, anoAposentadoria, tempoTrabalho
+    inteiro anoNascimento, anoAposentadoria, tempoTrabalho, anoAtual = 2024
     cadeia matricula
 
     //Definição de variáveis.
@@ -19,7 +19,7 @@ programa {
     escreva("\nTempo de trabalho: ", tempoTrabalho , " anos")
 
     //Calculadora.
-    anoAposentadoria = 2024 - anoNascimento
+    anoAposentadoria = anoAtual - anoNascimento
 
     //Condicional
     se(anoAposentadoria >= 65 ou tempoTrabalho >= 30){
