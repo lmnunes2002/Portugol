@@ -1,7 +1,8 @@
 programa {
   funcao inicio() {
     //Declaração de variáveis.
-    inteiro matricula, anoNascimento, anoAposentadoria, tempoTrabalho
+    inteiro anoNascimento, anoAposentadoria, tempoTrabalho
+    cadeia matricula
 
     //Definição de variáveis.
     escreva("Digite aqui seu código de matrícula: ")
