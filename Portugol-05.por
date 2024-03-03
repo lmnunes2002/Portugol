@@ -1,9 +1,9 @@
 programa {
   funcao inicio(){
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     inteiro idade
     
-    //Definição de variáveis.
+    //DefiniÃ§Ã£o de variÃ¡veis.
     escreva("Digite sua idade: ")
     leia(idade)
     limpa()
