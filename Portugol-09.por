@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-    //DefiniÁ„o de vari·veis
+    //Defini√ß√£o de vari√°veis
     inteiro a, b
     inteiro media, soma, subtracao, produto, divisao
 
-    //DeclaraÁ„o de vari·veis.
-    escreva("Digite aqui suas vari·veis: ", a , b)
+    //Declara√ß√£o de vari√°veis.
+    escreva("Digite aqui suas vari√°veis: ", a , b)
     leia(a , b)
     limpa()
 
@@ -17,7 +17,7 @@ programa {
     divisao = a / b 
 
     //Display
-    escreva("mÈdia: ", media, "\nsoma: ", soma, "\nsubtraÁ„o: ", subtracao, "\nproduto: ", produto, "\ndivis„o: ", divisao)
+    escreva("m√©dia: ", media, "\nsoma: ", soma, "\nsubtra√ß√£o: ", subtracao, "\nproduto: ", produto, "\ndivis√£o: ", divisao)
 
     //Condicional.
     se (a < b){
