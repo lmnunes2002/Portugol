@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // DeclaraÁ„o de vari·veis
+    // Declara√ß√£o de vari√°veis
     cadeia nome = "Lucas"
     caracter sexo = 'M'
     inteiro idade = 21
