@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     real numeroUm , numeroDois , numeroTres , maiorValor , menorValor  
 
-    //Definição de variáveis.
-    escreva("Digite aqui suas variáveis: ")
+    //DefiniÃ§Ã£o de variÃ¡veis.
+    escreva("Digite aqui suas variÃ¡veis: ")
     leia(numeroUm , numeroDois , numeroTres)
     limpa()
 
@@ -31,7 +31,7 @@ programa {
     }
 
     //Display.
-    escreva("Variável um: ", numeroUm, "\nVariável dois: ", numeroDois, "\nVariável três: ", numeroTres)
+    escreva("VariÃ¡vel um: ", numeroUm, "\nVariÃ¡vel dois: ", numeroDois, "\nVariÃ¡vel trÃªs: ", numeroTres)
     escreva("\nMaior valor: ", maiorValor)
     escreva("\nMenor valor: ", menorValor)
   }
