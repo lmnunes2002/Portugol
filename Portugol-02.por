@@ -1,14 +1,14 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     real variavelUM
     real variavelDOIS
     real soma, subtracao, multiplicacao, divisao
 
-    //Definição de variáveis.
-    escreva("Digite sua primeira variável: ")
+    //DefiniÃ§Ã£o de variÃ¡veis.
+    escreva("Digite sua primeira variÃ¡vel: ")
     leia(variavelUM)
-    escreva("Digite sua segunda variável: ")
+    escreva("Digite sua segunda variÃ¡vel: ")
     leia(variavelDOIS)
     limpa()
 
@@ -19,7 +19,7 @@ programa {
     divisao = variavelUM / variavelDOIS
 
     //Display.
-    escreva("primeira variável: ", variavelUM, "\nsegunda variável: ", variavelDOIS)
-    escreva("\nsoma: ", soma, "\nsubtração: ", subtracao, "\nmultiplicação: ", multiplicacao, "\ndivisão: ", divisao)
+    escreva("primeira variÃ¡vel: ", variavelUM, "\nsegunda variÃ¡vel: ", variavelDOIS)
+    escreva("\nsoma: ", soma, "\nsubtraÃ§Ã£o: ", subtracao, "\nmultiplicaÃ§Ã£o: ", multiplicacao, "\ndivisÃ£o: ", divisao)
   }
 }
