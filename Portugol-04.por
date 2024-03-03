@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     cadeia nome
     inteiro idade
     real media, nota_UM, nota_DOIS, nota_TRES, nota_QUATRO
 
-    //Definiçaõ de variaveis.
+    //DefiniÃ§aÃµ de variaveis.
     escreva("Digite aqui seu nome: ")
     leia(nome)
     escreva("Digite aqui sua idade: ")
@@ -20,7 +20,7 @@ programa {
     //Display.
     escreva("nome: ", nome)
     escreva("\nidade: ", idade)
-    escreva("\nnota um: ", nota_UM, ", nota dois: ", nota_DOIS, ", nota três: ", nota_TRES, ", nota quatro: ", nota_QUATRO)
-    escreva("\nmédia: ", media)
+    escreva("\nnota um: ", nota_UM, ", nota dois: ", nota_DOIS, ", nota trÃªs: ", nota_TRES, ", nota quatro: ", nota_QUATRO)
+    escreva("\nmÃ©dia: ", media)
   }
 }
