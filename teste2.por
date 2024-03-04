@@ -1,14 +1,14 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o de vari·veis.
+    //Declara√ß√£o de vari√°veis.
     cadeia pagamento
     real valorAvista, valorFixo, valorPagamento, valorParcela, valorDesconto
     inteiro codigo, parcelas
 
-    //DefiniÁaı de vari·veis.
+    //Defini√ßa√µ de vari√°veis.
     escreva("Digite aqui o valor do Produto: ")
     leia(valorFixo)
-    escreva("\nEscolha sua opÁ„o de pagamento(1 - a vista ou 2 - a prazo): ")
+    escreva("\nEscolha sua op√ß√£o de pagamento(1 - a vista ou 2 - a prazo): ")
     leia(codigo)
     limpa()
 
@@ -36,6 +36,8 @@ programa {
       pagamento = "A prazo"
       escreva("Valor do produto: ", valorFixo)
       escreva("Forma de pagamento: ", pagamento)
+      escreva("N√∫mero de parcelas: ", parcelas)
+      escreva("Valor da parcela: ", valorParcela)
     }
   }
 }
