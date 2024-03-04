@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
     inteiro codigo
     cadeia mes
 
-    //Definição de variáveis.
-    escreva("Digite aqui o código: ")
+    //DefiniÃ§Ã£o de variÃ¡veis.
+    escreva("Digite aqui o cÃ³digo: ")
     leia(codigo)
     limpa()
 
@@ -18,7 +18,7 @@ programa {
       mes = "Fevereiro"
       pare
       caso 3:
-      mes = "Março"
+      mes = "MarÃ§o"
       pare
       caso 4:
       mes = "Abril"
@@ -48,10 +48,10 @@ programa {
       mes = "Dezembro"
       pare
       caso contrario:
-      escreva("Mês inválido")
+      escreva("MÃªs invÃ¡lido")
     }
 
     //Display.
     escreva(mes)
-    }
   }
+}
